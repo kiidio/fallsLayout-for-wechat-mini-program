@@ -1,0 +1,53 @@
+@import "/component/FallsLayout/index.wxss";
+
+.top{
+    width: 100%;
+    height: 600rpx;
+    position: relative;
+    border-bottom: 23rpx solid #eeeced;
+}
+.top .personal-banner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.top .shadow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3)
+}
+.top .info{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 292rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.top .avatar{
+    width: 115rpx;
+    height: 115rpx;
+    border-radius: 50%;
+    border: 5rpx solid rgba(255,255,255,0.5);
+}
+.top .nick-name{
+    font-size: 32rpx;
+}
+.top .add{
+    margin-top: 20rpx;
+    font-size: 26rpx;
+}
+.add .popular{
+    padding-right: 47rpx;
+    border-right: 1rpx solid #fff;
+}
+.add .zan{
+    margin-left: 40rpx;
+}

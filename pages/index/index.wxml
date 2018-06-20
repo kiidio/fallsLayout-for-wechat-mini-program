@@ -1,0 +1,24 @@
+<!--引入模板-->
+<import src="/component/FallsLayout/index.wxml" />
+
+
+<!--top-->
+<view class="top">
+    <image mode="aspectFill" src="/images/personal-banner.png" class="personal-banner"></image>
+    <view class="shadow"></view>
+    <view class="info">
+        <view class="avatar-box">
+            <image mode="aspectFill" src="/images/avatar.png" class="avatar"></image>
+        </view>
+        <view class="nick-name">kiidio</view>
+        <view class="add">
+            <text class="popular">人气 2199</text>
+            <text class="zan">获赞 10086</text>
+        </view>
+    </view>
+</view>
+
+<!--falls-->
+<view class="fall-wrap">
+    <template is="fallsLayout" data="{{ colLeft, colRight }}"></template>
+</view>

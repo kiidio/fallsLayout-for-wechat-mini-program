@@ -1,0 +1,12 @@
+.fallsLayout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fallsLayout .img_item_left, .fallsLayout .img_item_right {
+    width: 49.6%;
+    margin-bottom: 6rpx;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
